@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">zheflow — Ideas into systems.</title>
+  <desc id="desc">A dark personal lab with mint and blue orbital lines. Code, create, and make things move.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#101B2D"/><stop offset=".55" stop-color="#0A1220"/><stop offset="1" stop-color="#0B1822"/></linearGradient>
+    <linearGradient id="accent" x1="790" y1="110" x2="1030" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#A5F3E0"/><stop offset=".5" stop-color="#52DEC5"/><stop offset="1" stop-color="#6C9FFF"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#355266"/><stop offset=".5" stop-color="#1E3044"/><stop offset="1" stop-color="#37594E"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#39BFA9" stop-opacity=".17"/><stop offset="1" stop-color="#39BFA9" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#9DBAD3" stroke-opacity=".045"/></pattern>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="398" rx="20"/></clipPath>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+      .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+      .orbit{transform-origin:927px 214px;animation:orbit 36s linear infinite}
+      .signal{animation:signal 4s ease-in-out infinite}
+      @keyframes orbit{to{transform:rotate(360deg)}}
+      @keyframes signal{0%,100%{opacity:.45}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.orbit,.signal{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+    <circle cx="930" cy="210" r="270" fill="url(#halo)"/>
+    <path d="M0 54H1200" stroke="#304258" stroke-opacity=".6"/>
+    <g class="mono" font-size="12" letter-spacing="1.4">
+      <circle cx="32" cy="28" r="4" fill="#52DEC5"/>
+      <text x="47" y="32" fill="#A7BDC8">zheflow / personal lab</text>
+      <text x="1010" y="32" fill="#84A99F">OPEN SOURCE</text>
+      <path d="M1162 23L1167 28L1162 33" stroke="#52DEC5" stroke-width="1.5"/>
+    </g>
+    <g class="sans">
+      <text x="48" y="162" fill="#F0F6FC" font-size="94" font-weight="750" letter-spacing="-5">zheflow<tspan fill="#63E2C6">.</tspan></text>
+      <text x="51" y="218" fill="#D9E6ED" font-size="32" font-weight="500" letter-spacing="-.7">Ideas into systems.</text>
+      <text x="52" y="253" fill="#91A6B9" font-size="18">Code. Create. Make things move.</text>
+    </g>
+    <g class="mono" font-size="11" letter-spacing="1.3">
+      <rect x="52" y="298" width="123" height="29" rx="5" fill="#122B2B" stroke="#285147"/>
+      <text x="67" y="317" fill="#87E2CB">AI SYSTEMS</text>
+      <rect x="185" y="298" width="159" height="29" rx="5" fill="#152437" stroke="#2D405C"/>
+      <text x="200" y="317" fill="#A6C4EE">CREATIVE TOOLS</text>
+      <rect x="354" y="298" width="111" height="29" rx="5" fill="#202138" stroke="#3A3C59"/>
+      <text x="369" y="317" fill="#C5BCEB">ROBOTICS</text>
+    </g>
+    <g stroke="#537885" stroke-opacity=".45">
+      <path d="M708 88H732M720 76V100M1110 328H1134M1122 316V340"/>
+      <path d="M744 214H1110M927 62V367" stroke-dasharray="3 8" stroke-opacity=".23"/>
+      <circle cx="927" cy="214" r="149" stroke-dasharray="2 8"/>
+      <circle cx="927" cy="214" r="116" stroke-opacity=".18"/>
+      <ellipse cx="927" cy="214" rx="171" ry="67" transform="rotate(-31 927 214)" stroke="#6AE5CC" stroke-opacity=".65"/>
+      <ellipse cx="927" cy="214" rx="171" ry="67" transform="rotate(42 927 214)" stroke="#7FAAFF" stroke-opacity=".46"/>
+    </g>
+    <g class="orbit">
+      <circle cx="927" cy="214" r="149" stroke="#74E9D0" stroke-opacity=".7" stroke-dasharray="57 879" stroke-linecap="round"/>
+      <circle cx="1076" cy="214" r="4" fill="#93F4D9"/>
+      <circle cx="778" cy="214" r="3" fill="#8DB2FF"/>
+    </g>
+    <path d="M863 173L897 151H989L970 177H921L893 202H954L932 228H869L842 255L862 273H955L1006 223L988 204L949 243H903L974 173Z" fill="#58DEC5" opacity=".15" filter="url(#glow)"/>
+    <path d="M878 166H990L973 188H922L890 219H947L925 241H866L849 262H960L1007 215L991 198L950 240H902L975 166" stroke="url(#accent)" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M878 166H990L973 188H922L890 219H947L925 241H866L849 262H960L1007 215L991 198L950 240H902L975 166" fill="url(#accent)" fill-opacity=".09"/>
+    <g class="mono" font-size="10" letter-spacing="1.5">
+      <path d="M1035 107H1095V131" stroke="#3F746C"/>
+      <text x="1043" y="101" fill="#88C7BA">IMAGINE</text>
+      <path d="M777 280H745V304H797" stroke="#3F5877"/>
+      <text x="750" y="320" fill="#8FACD5">BUILD</text>
+      <text x="1033" y="327" fill="#88A79E">ITERATE</text>
+    </g>
+    <path d="M32 363H1168" stroke="#263B4A" stroke-opacity=".7"/>
+    <g class="mono" font-size="10" letter-spacing="1.2" fill="#6F899D">
+      <text x="52" y="384">INDEPENDENT BUILDER / ENDLESS CURIOSITY</text>
+      <circle class="signal" cx="1046" cy="380" r="3" fill="#63E2C6"/>
+      <text x="1057" y="384" fill="#91BAAE">STILL BUILDING</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="399" rx="20" stroke="url(#edge)"/>
+</svg>

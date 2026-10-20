@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="78" viewBox="0 0 1200 78" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Always curious. Always building.</title>
+  <defs><linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#476184" stop-opacity="0"/><stop offset=".3" stop-color="#476184"/><stop offset=".5" stop-color="#71D8BC"/><stop offset=".7" stop-color="#476184"/><stop offset="1" stop-color="#476184" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0 12H578M622 12H1200" stroke="url(#line)"/>
+  <path d="M591 12L600 3L609 12L600 21L591 12Z" stroke="#6DBBA9"/>
+  <text x="600" y="54" text-anchor="middle" fill="#8192A6" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="3">ALWAYS CURIOUS. ALWAYS BUILDING.</text>
+</svg>

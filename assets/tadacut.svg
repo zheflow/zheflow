@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="340" viewBox="0 0 576 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">TadaCut — Say it. Make it.</title>
+  <desc id="desc">An abstract video editing timeline for the open-source AI video studio. TypeScript, React, Electron.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="576" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#111D2F"/><stop offset="1" stop-color="#0D1524"/></linearGradient>
+    <linearGradient id="mint" x1="374" y1="43" x2="538" y2="240" gradientUnits="userSpaceOnUse"><stop stop-color="#96F4D4"/><stop offset="1" stop-color="#58A6FF"/></linearGradient>
+    <linearGradient id="clip" x1="54" y1="200" x2="244" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#28675D"/><stop offset="1" stop-color="#244F54"/></linearGradient>
+    <style>.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}</style>
+  </defs>
+  <rect x=".5" y=".5" width="575" height="339" rx="14" fill="url(#bg)" stroke="#2A3F54"/>
+  <text class="mono" x="30" y="34" fill="#7CDDC3" font-size="10" letter-spacing="1.6">01 / CREATIVE SOFTWARE</text>
+  <text class="sans" x="29" y="82" fill="#EDF5FC" font-size="37" font-weight="700" letter-spacing="-1.3">TadaCut</text>
+  <text class="sans" x="31" y="110" fill="#9CB0C6" font-size="16">Say it. Make it.</text>
+  <rect x="482" y="43" width="54" height="54" rx="15" fill="#16322F" stroke="#315A4D"/>
+  <path d="M503 56L520 70L503 84V56Z" fill="url(#mint)"/>
+  <path d="M493 70H499M524 70H530" stroke="#7CE4C8" stroke-width="1.5"/>
+  <rect x="30" y="139" width="516" height="145" rx="9" fill="#09121F" stroke="#2A3F54"/>
+  <path d="M30 162H546" stroke="#25374C"/>
+  <circle cx="43" cy="151" r="2.5" fill="#4A637A"/><circle cx="53" cy="151" r="2.5" fill="#4A637A"/><circle cx="63" cy="151" r="2.5" fill="#65D9BE"/>
+  <text class="mono" x="80" y="154" fill="#7893AC" font-size="8" letter-spacing=".6">STORY → TIMELINE → VIDEO</text>
+  <path d="M80 179H320M80 205H320M80 231H320M80 257H320" stroke="#1D2F42"/>
+  <path d="M105 172V269M150 172V269M195 172V269M240 172V269M285 172V269" stroke="#1D2F42" stroke-dasharray="2 4"/>
+  <g class="mono" fill="#57758C" font-size="7"><text x="44" y="197">V1</text><text x="44" y="224">V2</text><text x="44" y="251">A1</text></g>
+  <rect x="79" y="184" width="108" height="17" rx="3" fill="url(#clip)" stroke="#458C7B" stroke-opacity=".6"/>
+  <rect x="193" y="184" width="113" height="17" rx="3" fill="#2D4F68" stroke="#547EA0" stroke-opacity=".6"/>
+  <rect x="109" y="211" width="147" height="17" rx="3" fill="#433760" stroke="#7E649C" stroke-opacity=".6"/>
+  <g class="mono" fill="#C0DBDD" font-size="7"><text x="88" y="195">scene_01</text><text x="201" y="195">scene_02</text><text x="117" y="222">a little imagination</text></g>
+  <rect x="79" y="238" width="227" height="17" rx="3" fill="#152F33"/>
+  <path d="M86 247H91L94 243L97 251L100 240L104 252L108 244L112 249L116 246L120 247H126L130 241L134 252L138 244L142 250L146 242L150 249L154 246H160L164 241L168 251L172 244L176 249L180 245L184 247H190L194 242L198 252L202 244L206 249L210 243L214 250L218 245L222 247H228L232 242L236 251L240 244L244 249L248 243L252 250L256 246H263L267 243L271 251L275 245L279 248L283 244L287 250L291 246H298" stroke="#66BCAE" stroke-width=".9"/>
+  <path d="M222 174V270" stroke="#A4F6DB" stroke-width="1.2"/>
+  <path d="M218 173H226L222 178Z" fill="#A4F6DB"/>
+  <rect x="339" y="175" width="190" height="95" rx="5" fill="#152A39" stroke="#2C465B"/>
+  <path d="M339 245L381 207L414 235L457 194L529 253V265C529 268 527 270 524 270H344C341 270 339 268 339 265V245Z" fill="#20474D"/>
+  <path d="M339 257L397 229L429 246L479 215L529 253V265C529 268 527 270 524 270H344C341 270 339 268 339 265V257Z" fill="#2A6060"/>
+  <circle cx="485" cy="197" r="9" fill="#A4ECD3" fill-opacity=".8"/>
+  <rect x="387" y="206" width="92" height="29" rx="14.5" fill="#0D1C2A" fill-opacity=".88" stroke="#73CDB6" stroke-opacity=".45"/>
+  <path d="M402 216L408 220L402 224V216Z" fill="#A3F1D6"/>
+  <text class="mono" x="416" y="224" fill="#C1ECE1" font-size="9">make it.</text>
+  <text class="mono" x="31" y="316" fill="#7F9BAF" font-size="10" letter-spacing="1.1">TYPESCRIPT / REACT / ELECTRON</text>
+  <path d="M522 307H534V319M534 307L521 320" stroke="#7CDDC3" stroke-width="1.3"/>
+</svg>

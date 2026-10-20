@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="576" height="340" viewBox="0 0 576 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">MicroDuck S288 — Code meets the physical world.</title>
+  <desc id="desc">A stylized blueprint of a small bipedal robot duck. An early-stage project using Python, CAD, and simulation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="576" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#141D30"/><stop offset="1" stop-color="#0D1524"/></linearGradient>
+    <linearGradient id="body" x1="260" y1="151" x2="361" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#243D55"/><stop offset="1" stop-color="#172838"/></linearGradient>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" stroke="#597797" stroke-opacity=".1"/></pattern>
+    <style>.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}</style>
+  </defs>
+  <rect x=".5" y=".5" width="575" height="339" rx="14" fill="url(#bg)" stroke="#2C3E59"/>
+  <text class="mono" x="30" y="34" fill="#A9B7F1" font-size="10" letter-spacing="1.6">02 / PHYSICAL COMPUTING</text>
+  <text class="sans" x="29" y="82" fill="#EDF5FC" font-size="37" font-weight="700" letter-spacing="-1.3">MicroDuck <tspan fill="#91A8CA" font-size="24" font-weight="400">S288</tspan></text>
+  <text class="sans" x="31" y="110" fill="#9CB0C6" font-size="16">Small duck. Big curiosity.</text>
+  <rect x="482" y="43" width="54" height="54" rx="15" fill="#222A45" stroke="#444E75"/>
+  <g stroke="#B5C2F5" stroke-width="1.5"><rect x="497" y="59" width="25" height="20" rx="6"/><path d="M504 79V84H499M516 79V84H521M509 59V54"/><circle cx="504" cy="68" r="1.5" fill="#B5C2F5"/><circle cx="516" cy="68" r="1.5" fill="#B5C2F5"/></g>
+  <rect x="30" y="139" width="516" height="145" rx="9" fill="#0A1422" stroke="#2C3E59"/>
+  <rect x="31" y="140" width="514" height="143" rx="8" fill="url(#grid)"/>
+  <ellipse cx="298" cy="260" rx="89" ry="11" stroke="#334963" stroke-dasharray="3 5"/>
+  <g stroke="#99B6E5" stroke-width="1.3" stroke-linejoin="round">
+    <path d="M270 160L291 150H333L345 162V187L326 199H281L270 189V160Z" fill="url(#body)"/>
+    <path d="M270 160H318L326 169V199M318 160L333 150M326 169L345 162" stroke="#7896C0"/>
+    <rect x="280" y="169" width="32" height="17" rx="5" fill="#0C1C2C"/>
+    <circle cx="288" cy="177" r="2" fill="#9AF2DA" stroke="none"/><circle cx="303" cy="177" r="2" fill="#9AF2DA" stroke="none"/>
+    <path d="M280 186H308L302 191H285L280 186Z" fill="#82ABBB" stroke="#A3D6DB"/>
+    <path d="M291 199V207M311 199V207" stroke="#637F9E" stroke-width="3"/>
+    <path d="M276 211L289 204H323L334 215V229L320 237H287L276 228V211Z" fill="url(#body)"/>
+    <path d="M276 211H311L320 219V237M311 211L323 204M320 219L334 215" stroke="#7896C0"/>
+    <circle cx="287" cy="224" r="4" fill="#193444" stroke="#6EC4B7"/>
+    <circle cx="321" cy="226" r="4" fill="#253448" stroke="#9DAEE7"/>
+    <path d="M287 228L282 242L290 252M321 230L315 243L325 252" stroke="#8AA7C8" stroke-width="3"/>
+    <circle cx="282" cy="242" r="3" fill="#9AF2DA" stroke="#86C9C1"/><circle cx="315" cy="243" r="3" fill="#B0BFF3" stroke="#96A5DA"/>
+    <path d="M274 251H293L299 257L293 262H268L265 258L274 251Z" fill="#203C4B"/>
+    <path d="M310 251H329L336 257L329 262H303L300 258L310 251Z" fill="#25364E"/>
+  </g>
+  <g class="mono" font-size="8" letter-spacing=".7">
+    <path d="M274 172H236L224 160H159" stroke="#507591"/><circle cx="274" cy="172" r="2.5" fill="#8BBDCE"/>
+    <text x="69" y="163" fill="#8EADC5">PARAMETRIC CAD</text>
+    <path d="M332 215H371L385 192H436" stroke="#507591"/><circle cx="332" cy="215" r="2.5" fill="#A7BAE8"/>
+    <text x="390" y="183" fill="#8EADC5">S288 SERVOS</text>
+    <path d="M282 242H219L205 255H157" stroke="#507591"/>
+    <text x="68" y="258" fill="#8EADC5">SIM → REAL</text>
+    <text x="423" y="267" fill="#6F88A1">WIP / BUILD</text>
+  </g>
+  <g stroke-width="1.3"><path d="M61 224V202M61 224H83M61 224L50 234" stroke="#607B9A"/><path d="M61 202L58 208M61 202L64 208M83 224L77 221M83 224L77 227" stroke="#8DA7C6"/></g>
+  <text class="mono" x="31" y="316" fill="#7F9BAF" font-size="10" letter-spacing="1.1">PYTHON / CAD / SIMULATION</text>
+  <path d="M522 307H534V319M534 307L521 320" stroke="#A9B7F1" stroke-width="1.3"/>
+</svg>
